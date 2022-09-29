@@ -1,22 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fernando Siqueira</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    iframe {
+      position: fixed;
+      transform: scale(150%);
+      right: 0px;
+      bottom: 0px;
+      min-width: 100%;
+      min-height: 100%;
+    }
+    .container{
+      position: fixed;
+      top: 0;
+      min-height: 100%;
+      background: rgba(0, 0, 0, 0.35);
+      color: white;
+      width: 100%;
+      padding: 100px;
+    }
+    a {
+      color: aqua;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Quem é esse?</h1>
-  <table>
-    <tr id="linha-um">
-      <td><h3>Fernando Siqueira</h3></td>
-    </tr>
-    <tr id="linha-dois">
-      <td>Fernando Lopes Siqueira, 23 anos, nascido e criado belo-horizontino, no momento em que escrevo isso estagiário de infraestrutura de T.I. na Construtora Barbosa Mello e aluno do curso de análise e desenvolvimento de sistemas pelo Centro Universitário Una. Gosto de ouvir música<!--FRUITS ZIPPER, E ve, Official hige dandism e ClariS como as mais ouvidas nas últimas semanas-->, estudar idiomas (meu foco está atualmente em inglês e japonês), e mais raramente, ler algum livro.</td>
-      <!--resolvi deixar uma marca temporal, já que talvez um dia eu faça uma branch dessa atividade e, quem sabe, isso não vá parar numa autobiografia que eu venha a escrever? setembro de 2022-->
-    </tr>
-  </table>
-  <p><a href="/index.html">Voltar ao "Projetos de Extensão"</a></p>
+  <div id="yt-background">
+    <iframe
+      src="https://www.youtube.com/embed/ulfY8WQE_HE?autoplay=1&controls=0&mute=1&showinfo=0&autohide=1&disablekb=1&fs=0iv_load_policy=&modestbranding=1&rel=0"
+      frameborder="0"></iframe>
+  </div>
+  <div class="container">
+    <h1>Quem é esse?</h1>
+    <table>
+      <tr id="linha-um">
+        <td>
+          <h3>Fernando Siqueira</h3>
+        </td>
+      </tr>
+      <tr id="linha-dois">
+        <td>Fernando Lopes Siqueira, 23 anos, nascido e criado belo-horizontino, no momento em que escrevo isso
+          estagiário de infraestrutura de T.I. na Construtora Barbosa Mello e aluno do curso de análise e
+          desenvolvimento de sistemas pelo Centro Universitário Una. Gosto de ouvir música
+          <!--FRUITS ZIPPER, E ve, Official hige dandism e ClariS como as mais ouvidas nas últimas semanas-->, estudar
+          idiomas (meu foco está atualmente em inglês e japonês), e mais raramente, ler algum livro.
+        </td>
+        <!--resolvi deixar uma marca temporal, já que talvez um dia eu faça uma branch dessa atividade e, quem sabe, isso não vá parar numa autobiografia que eu venha a escrever? setembro de 2022-->
+      </tr>
+    </table>
+    <p><a href="/index.html">Voltar ao "Projetos de Extensão"</a></p>
+  </div>
 </body>
+
 </html>
